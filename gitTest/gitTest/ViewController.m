@@ -20,7 +20,7 @@
     
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(([UIScreen mainScreen].bounds.size.width - 300 )/2, 100, 300, 60)];
     label.font = [UIFont systemFontOfSize:20];
-    label.text = @"我在测试git";
+    label.text = @"我在测试1  ";
     label.textColor = [UIColor whiteColor];
     label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
